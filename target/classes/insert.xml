@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ser="http://service.webservice.shersfy.org/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<ser:insert>
+			<!--Optional: -->
+			<user>
+				<!--Optional: -->
+				<id>10</id>
+				<!--Optional: -->
+				<username>admin</username>
+				<!--Optional: -->
+				<password>admin123</password>
+			</user>
+		</ser:insert>
+	</soapenv:Body>
+</soapenv:Envelope>
